@@ -1,0 +1,833 @@
+
+#button2 {
+    background-color: #ff4800 !important;
+    border: none;
+    color: white !important;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none  !important;
+    display: inline-flex;  /* Use flexbox to align the icon and text */
+    font-size: 16px;
+    margin: 2px 20px;
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 20px;
+    align-items: center;  /* Vertically centers the text and icon */
+}
+
+#button2inside{
+    color: white;
+    text-decoration: none;
+}
+
+#button2 i {
+    margin-right: 10px;  /* Space between the icon and text */
+    font-size: 18px;  /* Icon size */
+}
+
+
+
+.navbar-nav{
+    margin-left: 130px;
+
+    
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: #54a4ac !important;
+    /* color: aqua !important; */
+
+    
+  border-bottom: 0.5px solid rgb(190, 191, 255);
+  
+    
+
+}
+
+
+body{
+  overflow-x: hidden;
+}
+
+
+#halfbody1{
+    padding-top: 100px !important;
+    padding-bottom: 300px !important;
+    background-color: #54a4ac;
+    color: white;
+  }
+  
+
+  #heading1{
+    font-weight: bolder;
+    font-size: 60px;
+    font-style: none;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+
+
+  .input-container {
+    position: relative;
+    width: 50%;
+    margin-left: 335px;
+}
+
+#input1 {
+    width: 100%;
+    padding: 20px 20px 20px 60px;  /* Add padding to the left to make room for the icon */
+    border-radius: 40px;
+    box-shadow: none;
+    outline: none; /* Removes the outline */
+    border: none; /* Removes any default border */
+    font-size: 16px; /* Adjust font size for the input text */
+}
+
+#search-icon {
+    position: absolute;
+    left: 15px; /* Position the icon inside the input */
+    top: 50%;
+    transform: translateY(-50%); /* Vertically center the icon */
+    font-size: 150%; /* Make the icon fill up the space available in the input */
+    color: #888; /* Icon color */
+}
+  
+
+
+
+
+
+#navitem2, #navitem3, #navitem4, #navitem5{
+    margin-left: 20px;
+    color: white;
+}
+
+
+#navitem1, #navitem2, #navitem3, #navitem4, #navitem5{
+    font-style: none;
+}
+
+
+
+/* COURSES */
+
+
+
+.courses {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5em;
+}
+
+.course-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.course-head h1 {
+  font-size: 45px;
+}
+
+.course-p {
+  display: flex;
+  margin: 40px 20px;
+}
+
+.course-p p {
+  margin: 0 20px;
+  font-size: 20px;
+}
+
+.first {
+  color: #13547a;
+  text-decoration: underline;
+  text-underline-offset: 30px;
+}
+
+.course-p .sec:hover {
+  color: #13547a;
+  transition: 0.4s;
+  text-decoration: underline;
+  text-underline-offset: 30px;
+  cursor: pointer;
+}
+
+.cards123 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.card123 {
+  width: 25%;
+  padding: 20px;
+  margin: 0 20px;
+  box-shadow: 10px 15px 20px rgb(136, 136, 136);
+  font-weight: 100;
+}
+
+.card123:hover {
+  transform: translateY(-8px);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.card123 p {
+  margin: 10px 0;
+  font-size: 20px;
+  color: #717275;
+}
+
+.card123 img {
+  display: block;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#heading2{
+text-align: center;
+font-size: 50px;
+margin-top: 100px;
+}
+
+#button2{
+    margin-right: 100px;
+}
+
+#logoimage{
+    margin-left: 70px;
+}
+
+body, #halfbody1 {
+    margin: 0px; 
+    margin-top: -37px;
+    padding: 0; 
+}
+
+#heading2 ,#heading3, #heading4, #heading5{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 200px;
+    color: black;
+    font-weight: bolder;
+}
+
+
+
+.card-img-top{
+    /* height: 200px !important; */
+    width: 100% !important;
+}
+
+
+ .card-body{
+    text-align: center;
+    /* margin: auto;
+    margin: 10px;
+    margin-bottom: 20px; */
+} 
+
+#sacard{
+margin: 450px;
+margin-top: -5px;
+
+
+}
+
+#heading2, #heading3, #heading4{
+color: black;
+}
+
+
+#heading4{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 200px;
+    
+}
+
+.card-group {
+    display: flex; /* Enables flexbox layout */
+    justify-content: space-between; /* Ensures equal space between the cards */
+    gap: 20px; /* Adds a gap between cards */
+    padding: 20px; /* Adds padding to the group */
+
+  }
+  
+  .card:hover {
+    transform: translateY(-8px);
+    transition: 0.5s;
+    cursor: pointer;
+  }
+
+  .card {
+    flex: 1; /* Makes each card take equal space */
+    border-radius: 10px; /* Adds rounded corners to the cards */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow for better visibility */
+  }
+  
+  .card-img-top {
+    width: 100%; /* Ensures image takes full width of the card */
+    border-radius: 10px 10px 0 0; /* Rounds the top corners of the image */
+  }
+  
+  #cardsspace1, #cardsspace2, #cardsspace3 {
+    /* No need for extra margin or flex display as it's now handled by flexbox on the card-group */
+    border-radius: 10px;
+  }
+  
+  #heading2, #heading3, #heading4 {
+    color: black;
+  }
+  
+  #heading4 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 200px;
+  }
+  
+.card-text{
+    text-align: center;
+    margin: auto;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.imgofcards{
+  
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    
+}
+
+
+.finalmap{
+    display: flex !important;
+    color: black !important;
+    background-color: rgb(232, 253, 255);
+    text-align: center;
+}
+
+#realmap, #realmaptext{
+    margin-left: 100px;
+    margin-top: 5px
+    
+}
+
+#realmap{
+    width: 50%;
+    height: 500px;
+}
+
+.textofmaps{
+    color: rgb(88, 85, 85);
+   padding: auto  !important;
+}
+
+.textofmaps1{
+    color: rgb(88, 85, 85);
+    padding: auto  !important;
+   margin-top: 30px;
+}
+
+
+
+#realmaptext{
+    text-align: left !important;
+}
+
+
+
+.slightly-visible-line {
+    border-top: 1px solid rgba(0, 0, 0, 0.486); /* Very faint black line with low opacity */
+    width: 200%;
+    height: 0;
+  }
+  
+  
+  .textofmaps2{
+    display: inline !important;
+    font-style: none !important;
+    text-decoration: none;
+    color: rgb(115, 160, 255);
+  }
+
+/* .textofmaps1{
+    
+} */
+
+
+
+/* Footer------------> */
+
+
+
+
+
+
+
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+.footer {
+  background-color: rgb(255, 255, 255);
+  color: rgb(115, 160, 255);
+  /* position: fixed; */
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.footer .heading {
+  /* color: #000000; */
+  max-width: 1010px;
+  width: 90%;
+  text-transform: uppercase;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.footer .content {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1.5rem;
+}
+
+.footer .content p {
+  margin-bottom: 1.3rem;
+}
+
+.footer .content a {
+  text-decoration: none;
+  /* color: #000000; */
+}
+
+/* .footer .content a:hover {
+  border-bottom: 1px solid #971717;
+} */
+
+.footer .content h4 {
+  margin-bottom: 1.3rem;
+  font-size: 19px;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.lastheadings{
+  font-size: 20px;
+  font-weight: bolder !important;
+  color: rgb(34, 68, 255) !important;
+}
+
+
+footer hr {
+  margin: 2rem 0;
+}
+
+/* .lastheadingsspacing{
+  margin-bottom: 20000rem   !important; 
+} */
+
+#logoimagewhite{
+    width: auto;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+@media (max-width: 767px) {
+  .footer .content {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+  }
+
+  .footer {
+    position: unset;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .footer .content,
+  .footer {
+    font-size: 14px;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 500px) {
+  .footer {
+    position: unset;
+  }
+}
+
+
+#lastname{
+  text-decoration: none;
+}
+
+
+
+
+
+/* MEDIA QUERIES */
+
+
+
+
+/* Media Query for Phone Screens */
+@media (max-width: 767px) {
+  /* Navbar adjustments */
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .navbar-collapse {
+    align-items: center;
+  }
+
+  #logoimage {
+    margin: auto;
+  }
+
+  /* Card adjustments */
+  .cards123 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Adds spacing between the cards */
+    margin-top: 20px;
+    padding: 0 15px; /* Adds some padding for better appearance on small screens */
+  }
+
+  .card123 {
+    width: 100%; /* Ensures cards take up full width of the screen */
+    margin: 0; /* Resets margins for consistent spacing */
+    box-sizing: border-box; /* Ensures padding is included in the width calculation */
+  }
+
+  /* Prevent impact on other elements */
+  #halfbody1 {
+    padding: 20px 15px; /* Ensures consistent spacing for the search bar section */
+    text-align: center; /* Centers content for smaller screens */
+  }
+
+  #heading1 {
+    font-size: 36px; /* Adjust heading size for better readability on smaller screens */
+  }
+
+  .input-container {
+    width: 90%; /* Makes the search bar fit nicely on smaller screens */
+    margin: 0 auto; /* Centers the search bar */
+  }
+
+  #sacard {
+    margin: 20px auto; /* Ensures proper alignment for the Tutor card */
+    width: 90%; /* Makes the card responsive to screen size */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (max-width:1026px) {
+
+  nav ul,
+  button {
+      display: none;
+  }
+
+  nav .fa-bars {
+      display: block;
+  }
+
+  .get-in iframe {
+      width: 600px;
+  }
+
+  footer div {
+      margin: 80px 50px;
+  }
+
+}
+
+
+@media screen and (max-width:768px) {
+
+  .cards {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+  }
+
+  .card {
+      width: 40%;
+      margin: 40px 20px;
+  }
+
+  .tutor img, #sacard {
+      width: 70%;
+  }
+
+  .Reviews {
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .Review-card {
+      width: 40%;
+      margin: 40px 20px;
+  }
+
+  .about {
+      display: flex;
+      flex-wrap: wrap;
+      text-align: center;
+  }
+
+  footer div {
+      margin: 40px 35px;
+  }
+
+
+  .get-in iframe {
+      width: 100%;
+  }
+
+
+}
+
+@media screen and (max-width:500px) {
+
+  .head h1 {
+      font-size: 45px;
+  }
+
+  .get-in {
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .get-in iframe {
+      width: 100%;
+  }
+
+  .tutor img {
+      width: 80%;
+  }
+
+  .tutor p {
+      font-size: 15px;
+  }
+
+  .about {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+  }
+
+  .cards {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .card {
+      width: 80%;
+      margin: 20px 0;
+  }
+
+  .Reviews {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+  }
+
+  .Review-card {
+      width: 80%;
+      margin: 20px 0;
+  }
+
+  footer div {
+      margin: 40px 35px;
+  }
+
+
+
+}
+
+
+@media screen and (max-width:400px) {
+
+  .head h1 {
+      font-size: 35px;
+  }
+
+  .get-in {
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .get-in iframe {
+      width: 100%;
+  }
+
+  .tutor img {
+      width: 80%;
+  }
+
+  .tutor p {
+      font-size: 15px;
+  }
+
+  .about {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+  }
+
+  .cards {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .card {
+      width: 80%;
+      margin: 20px 0;
+  }
+
+  .Reviews {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+  }
+
+  .Review-card {
+      width: 80%;
+      margin: 20px 0;
+  }
+
+  footer div {
+      margin: 40px 35px;
+  }
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

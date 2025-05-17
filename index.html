@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Al Mustafa Academy</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <script
+    src="https://kit.fontawesome.com/66aa7c98b3.js"
+    crossorigin="anonymous"
+  ></script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.css"
+      rel="stylesheet"
+    />
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAAkFBMVEX///8AAFvz8/cCAlzv7/VHR4kMDGP8/P35+fuxsc1PT44FBV4ICGD29vloaJ4TE2fq6vEcHG0XF2qpqcjd3ekqKnbh4ewiInHR0eGQkLhQUI4VFWnY2OaAgK3Dw9i7u9M/P4Q1NX2Tk7otLXhdXZejo8Q4OH+IiLLBwdd0dKZ+fqzLy963t9FhYZlBQYVqap8DxPB+AAAJ2klEQVR4nO1d2WKqMBRUUXFBxV1pqXvd9f//7rac4LUKySQkwAPzXGpCcrY5k1AqFShQoECBAgUKFChQoECBAgUkYHcqVRwVO+vxRsGuzprz49ar4Wj5k6xH/QrbvZxq03q7LId2t5L1yP+gMdsve5bkJAL0z1mP/Qn27DiWXYoQvUXWo/+PyX6stBgBVqOshx+icak5zyNrO3UxHhOfDvPit6r7/mMO1sdqe1oPm0Lc6+yB70Ve5jHp1h+7vbY/TDrIwBYbesLZzowPEMSnFxp5/3pxwbd7YPPoHV2zo8Px2WKbvb49dOCHlmzq69yEkFE4j82uCj/kbpmZ7xoGhyYF90rzcLwZbrL23smZuyp1fBpSXWqrf01pX+VnHqXhgObh49uqVKpc6aF1bvZV6fObhnSSMtlFMHvrnhs7L3WOgYG0uzLrUWp0KS/5NDUseSwooNfk6onPMW0sQ4NSQJWc6PQg99guyAO+c1RNNXuB493L+R77GFiInx+PVdmqbKxSxQtSk4uZQangK7CQ+k7yMTfwdNP8mLp9ClxWTTbpm6wCn5UfExkFA3JkFyR/EyHns5GuUt0g8R3nZmtVA5u1TtLOhxm7pM82h0OQZ/S/pB8k99ueGxiTCmg4ZU8hX6I9Ke0kDOFzo+R7fzELUpSPnHBZa0c5z+hQFn/PRRJfbSma+i+G9fz4LSopFDnbyTI35t4gU98qlkb7dl7MnZUUw/i/sHkE1yyo2XtN/QOTBZn6kmPqVZ9jAszcuzANZgpuLdjkvELkMOVVgFTJTDMnSy80Do6p/8TLFqeQd2/0JvQPTQodYg+unJ0x2vAj3jww91vG5k6hmWurv0Z05EQ8+hf1jM1d/DqDeMmLeI27cFHNg21wXjwL4mWbZ+5iMzMPcjljjsth8ZIX8cjxZcqlhEGAYwGUGvOZkgRZpyacp+AgkcnykgPDsMWJEm0bbPuppmvJMQloKcCQIYeQoehBXEww1wq5aNWSJjkYTyoOdmUoaGZHcJ37woKb4qWFpDFlxbI/OWw/GKA4IXRqSGL5C0+qS6QLZOqOOEUfLyjicVN9MvdMqDrGkyJFk7j4Is6xfMzA3IGffpSx4nJYmT5ODmqJDHib4REvmRfmRTwi5uUJ/cRgLRGeeT5RPeKIx/4fz3WYAbVEuA7zKV4CEY+tcOrsKe1pnnCPxUuiQ8UJLhBeTQBoifyJlwDRPRR6QRMQt0TCeEkpFtB6AOKSfgCJ98u44Jmny54CpdBLvET2orhM0w4F2xV7hwyaJQBd8BYvgRZ2k/x1iuwpwJO+xUsggrppN0vCjINXYLzHS5mcJiXM0Bzwj0UgBWXKzRKq+7gtkSgfBeT9YkpcJ8KWCOdPIqMGXIml1SwR/1p0vAQiHvCO9IGtP69ZFpNZUcT74EU88a7VB8AiY+Lln3w45p+L/Yg27LGWSFS8hBm9NNhTIGotPgJTf4+XgDxgkVqzRJxHcN4qwHrHraZuAJkdhzNRty/tAHJtjudR93i6kTQWqMYg7UganQF5gLKwUApihkCQL7F9x3PeqlJPGSTPYNUyZ+0AWDRBvATkAQD3lxQArymUECDVZTBXk80SgGkWxkuVel87xNw/EC8BBsYTWmIyMH/Ca4kA8VKeE9MOcX/M3ovZQnmWUjd08bcLmDc2ZO66GHWgWQJ0vhNA3NUPS8BK4xV/6RRHFPGAWlId8Iu0bt03HJtPERCQB5iUmsN9wEgMnnIWQB7AakkT5o44m1XsPMrWc8J76IvdnzH2FO6VR6J+e15JoEdvrlkCB+R3tKfb4d/n4BRBv9TcFetJvvpWO8TTNJyVf34dDkvaAB2LdvYU0LTO1vMQ3uOOl/ZqPnqfPJ5G62ZPpXjyynoamvh4HzGNUuiouYWNGam5jO7bPYZCxsE97hoLWH2nu1ki8XpGW7av2stm/AKKI56RZonEhp3VWFTsHXlVN6xQ1cue4i7kzO6dKW923FcJa4a5jlIWuFP/WrFt1ToLfh9WcetslsBhNpxH/S78dURXr7tZAic+529mHsglL/BJB33sKZqKzm7M664RT4OePdEoNQeLg1GL5tEH72WCW1+62FOwXAsvc0LngZ7P0ic1xwroyoni4AC+JwuIeFqbJRilYa8pL+lJ3Mt0ETZLEpz5fwdGMi0oT6z7EhkFcqpUY7MEov3YRXLtuxQVtUZFLTqk5pCMtdolQ/eULnNKR2qOUOP2mqr1b8l6Lk2pOSB8+/FrdHCnL00VpCg1R9pHLrEO9bk0MRgr9vgPXVJzoKFnz2ljbRXeWmpSc6TFyjbWSoXwSE1qDvhxdkNhT8ke05KaI4n0MIjPluJl1ilJzYGVpxy/vFFk0lKSmottkRVd6nldKlJzQDzFzn56ygsP+PfkUnOSswHxKsEBwjSk5kAGQe/TSuLlU5Ca4zldEs48Bam5onRcFrDUXLVZoiodl4Vxqbn4aT2V6N9jZZFIJDVPjxswLDVPT9pqWGqeQDouC1xqrmDuSaTjsgCk5urNkkTScVnAzRL51U8mHZeFQXtE+jD6Dq0AnSRFDykhHddClTeFJqDYLEn7YBc1S7i5jloWIa74Kc3S1j2miMfzLUp5HZCRUqmurZ9PJmAdOe9FRWouZsXYfVO8BEkKzCj7nJ9UkJqLeUr22RCNHVd2NRrn6nkFqbmYOT5QO0S9VH8DezXOKX47H6Sl5kIuf0Iba6BT4DahnvAgfpGl7+URPlC9t4WmKY8mfYllE//GZaXmIul4x2ftEL1q1s6RhHfLWB8syZ6K6r7OvCfaBGpgG7Zci5uJZLNEoC+u7Gkezkm7cPKL3fR2i0tVAOHdE3bcLr17on1lbfVrcm32waLyqhntu6SaJXzdxCzUx9VMyL0brFtf7s+jt4+M1JzX16sMV0wfF2+RidBh+7Zc30YKviSk5px0uXHuhrLLpanjzaEF/rz2ecTmlpCax54casxOU7YcVqxfSY7OOvygorNcT95WBW+WRJeUtnu5P74D6lxNHnZsNNlnBX9+6Nv/erEVWJUYwek1qp/N0y1c8R/z8Q3fwHJ+EnL3W/vFqPrkpVCdKNEu9dOQYbf2u7Xx/496/qp5jd9S5PrTx++Vrd6mdffXOzYgUnkLmyWM4rHCL5Y6zst3ZfunNG4gbBy8lyMcbYcNyaF3KtJSP92iGoXB9ZDSpVHVXS3+NEpZXJrOOR/2bU+7ixTvFnZ33oDzfV4+WeDe4p6zBrf92zEQw6gujqvYDz/z2dNm1HJazmDj7Q/oR1l1wp5cTq1xz4mYDZc9tXetF3je9bjfHSbZfXjRrnwudv7x6nkvQ/N5Y+pUXtFpZLAQ77Ab70PLxcAKFChQoECBAgUKFChQoEABU/gHjCvlseiDg/oAAAAASUVORK5CYII="
+      type="image/x-icon"
+    />
+  </head>
+  <body class="bg-body-primary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img id="logoimage" src="IMG-20250114-WA0046.jpg" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                id="navitem1"
+                href="#"
+                >HOME</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="navitem2" href="#">COURSES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="navitem3" href="#">TUTOR</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="navitem4" href="#">REVIEW</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="navitem5" href="#">CONTACT</a>
+            </li>
+          </ul>
+          <span class="navbar-text">
+            <button id="button2"><a id="button2inside" href="https://almustafaa.netlify.app/"> <i class="fa-solid fa-graduation-cap"></i>Enroll Now</a>
+             
+            </button>
+          </span>
+        </div>
+      </div>
+    </nav>
+
+    <br /><br /><br /><br /><br /><br />
+
+    <section id="halfbody1">
+      <h1 id="heading1">Learn. Code. Earn</h1>
+      <br />
+      <div class="input-container">
+        <input
+          type="text"
+          id="input1"
+          placeholder="Full-Stack Development, Graphic Designing..."
+        />
+        <i id="search-icon" class="fa-solid fa-magnifying-glass"></i>
+      </div>
+    </section>
+
+    <!-- <h1 id="heading2">Courses</h1> -->
+
+    <div class="course-head">
+      <h1 id="heading2">Courses</h1>
+      <div class="course-p">
+          <p class="first">Design</p>
+          <p class="sec">Development</p>
+      </div>
+  </div>
+
+  <section class="cards123">
+      <div class="card123">
+          <h2>Web Design</h2>
+          <p>Topics include : CSS3 , Bootsrtap and other frameworks..</p>
+          <img src="IMG-20250114-WA0048.jpg" alt="">
+      </div>
+      <div class="card123">
+          <h2>Graphic</h2>
+          <p>Topics include: Adobe Photoshop (PS) , Adobe Illustrator (AI)...</p>
+          <img src="IMG-20250114-WA0050.jpg" alt="">
+      </div>
+      <div class="card123">
+          <h2>Logo Design</h2>
+          <p>Topics include : Canva , Ps , AI ...</p>
+          <img class="img" src="IMG-20250114-WA0045.jpg" alt="">
+      </div>
+  </section>
+
+
+    <h1 id="heading3">Tutor</h1><br><br>
+
+    <div id="sacard" class="card mb-3">
+      <div class="card-body">
+        <h5 class="card-title">Mohammad Saad Ali</h5>
+        <p class="card-text">
+          Founder of Al Mustafa Academy <br /><br />
+          Full Stack developer | Studied web and mobile app development in
+          Saylani | Studies BSCS in SMIU | Studies in Aptech Garden Center |
+          Studies AI in PIAIC
+        </p>
+        <br /><br />
+        <img src="IMG-20250114-WA0052.jpg" class="card-img-top" alt="..." />
+        <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
+      </div>
+    </div>
+
+    <h1 id="heading4">Reviews</h1>
+
+    <br /><br /><br />
+
+    <section id="cardimages1">
+      <div class="card-group">
+        <div id="cardsspace1" class="card">
+          <div class="card-body">
+            <h5 class="card-title">Hassaan</h5>
+            <p class="card-text">
+              My time at Al Mustafa Academy was incredible. The instructors were
+              knowledgeable and always willing to help. The curriculum was
+              well-structured, and I gained practical skills and I loved it...
+              <br />
+              Rating : ⭐⭐⭐ ☆ ☆ (3/5)
+            </p>
+            <img class="imgofcards" src="IMG-20250114-WA0047.jpg" class="card-img-top" alt="..." />
+          </div>
+        </div>
+
+        <div id="cardsspace2" class="card">
+          <div class="card-body">
+            <h5 class="card-title">Ahmed</h5>
+            <p class="card-text">
+              The learning environment at Al Mustafa Academy is extremely
+              supportive and engaging. The small class sizes allowed for
+              personalized attention, and the hands-on projects were
+              invaluable... <br />
+              Rating : ⭐⭐⭐⭐☆ (4/5)
+            </p>
+            <img
+            class="imgofcards"
+              src="IMG-20250114-WA0044.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+          </div>
+        </div>
+
+        <div id="cardsspace3" class="card">
+          <div class="card-body">
+            <h5 class="card-title">Muneeb</h5>
+            <p class="card-text">
+              What sets Al Mustafa Academy apart is its focus on innovation and
+              staying ahead of industry trends. The instructors are industry
+              professionals who bring their real-world experience... <br />
+              Rating : ⭐⭐⭐⭐⭐ (5/5)
+            </p>
+            <img class="imgofcards"
+              src="IMG-20250114-WA0043.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <h1 id="heading5">Get In Touch</h1>
+    <br /><br /><br />
+
+    <div class="finalmap">
+      <div id="realmap">
+        <h3>Our Location</h3>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28956.11674297123!2d67.028701!3d24.880423!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e4505a98807%3A0xab98f715404df31b!2sGarden%20East%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2sus!4v1735979983737!5m2!1sen!2sus" 
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
+
+      <div id="realmaptext">
+        <h1>
+          <br>
+          Academy
+        </h1>
+        <h3 class="textofmaps">Garden, Karachi</h3>
+        <div class="slightly-visible-line"></div>
+        <h3 class="textofmaps1" class="textofmaps">Phone : </h3>
+        <h5 ><a class="textofmaps2"  href="#">305-240-9671</a></h5>
+
+        <h3 class="textofmaps1" class="textofmaps">Email : </h3>
+        <h5 ><a class="textofmaps2"  href="#">almustafaacdemy@gmail.com</a></h5>
+      </div>
+    </div>
+
+    <!-- Footer Starts Here -->
+
+
+    <div class="footer">
+      <div class="heading">
+        
+      </div>
+      <div class="content">
+        <!-- <div class="services">
+          <h4>Services</h4>
+          <p><a href="#">App development</a></p>
+          <p><a href="#">Web development</a></p>
+          <p><a href="#">DevOps</a></p>
+          <p><a href="#">Web designing</a></p>
+        </div> -->
+
+<a href="#"><img src="IMG-20250114-WA0051.jpg" id="logoimagewhite" alt=""></a>
+
+
+       
+
+        <div class="links">
+          <h4 class="lastheadings">Resources</h4>
+          <p><a class="lastheadingsspacing" href="#">Home</a></p>
+          <p><a class="lastheadingsspacing"  href="#">Courses</a></p>
+          <p><a class="lastheadingsspacing"  href="#">Reviews</a></p>
+          <p><a class="lastheadingsspacing"  href="#">Tutor</a></p>
+        </div>
+
+        <div class="details">
+          <h4 class="lastheadings">Infromation</h4>
+          <p>
+            <a href="#">305-240-9671</a>
+          </p>
+          <p><a href="#">almustafaacdemy<br>
+          @gmail.com</a></p>
+        </div>
+
+
+        <div class="social-media">
+          <h4 class="lastheadings">Social Media Links</h4>
+          <p>
+            <a href="https://www.facebook.com/" target="_blank"
+              ><i class="fab fa-facebook"></i>&nbsp; Facebook</a
+            >
+          </p>
+
+          <p>
+            <a href="https://www.instagram.com/" target="_blank"
+              ><i class="fab fa-instagram"></i>&nbsp; Instagram</a
+            > 
+          </p>
+
+          <p>
+            <a href="https://x.com/" target="_blank"
+              ><i class="fab fa-twitter"></i>&nbsp; Twitter</a
+            >
+          </p>
+
+          <p>
+            <a href="https://pk.linkedin.com/" target="_blank"
+              ><i class="fab fa-linkedin"></i>&nbsp; Linkedin</a
+            >
+          </p>
+
+          <p>
+            <a href="https://github.com/" target="_blank"
+              ><i class="fab fa-github"></i>&nbsp; Github</a
+            >
+          </p>
+
+
+        </div>
+
+
+      </div>
+
+      <footer>
+        <hr ><a id="lastname" href="#">© Create By Ashar</a>
+        
+      </footer>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    
+  </body>
+</html>
+
